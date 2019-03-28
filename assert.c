@@ -16,7 +16,7 @@ test_add(void)
   printf (" OK\n");
 }
 
-void
+/*void
 test_powe(void)
 {
   printf ("Test power using assert:      ");
@@ -27,11 +27,11 @@ test_powe(void)
   
   
   printf (" OK\n");
-}
+}*/
 int
 main(void)
 {
   test_add();
 
-  test_powe();
+  //test_powe();
 }
