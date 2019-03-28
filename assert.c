@@ -17,7 +17,7 @@ test_add(void)
 }
 
 void
-test_pow(void)
+test_powe(void)
 {
   printf ("Test power using assert:      ");
   assert (powe(2,1)==2);
@@ -27,4 +27,11 @@ test_pow(void)
   
   
   printf (" OK\n");
+}
+int
+main(void)
+{
+  test_add();
+
+  test_powe();
 }
