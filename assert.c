@@ -32,6 +32,6 @@ int
 main(void)
 {
   test_add();
-
+return 0;
   //test_powe();
 }
