@@ -16,22 +16,23 @@ test_add(void)
   printf (" OK\n");
 }
 
-/*void
-test_powe(void)
+void
+test_mod(void)
 {
-  printf ("Test power using assert:      ");
-  assert (powe(2,1)==2);
-  assert (powe(1,2)==1);
-  assert (powe(2,-1)==0.5);
-  assert (powe(1,-2)==1);
+  printf ("Test mod using assert:      ");
+  assert (mod(2,1)==0);
+  assert (mod(1,2)==1);
+  assert (mod(2,-1)==-1);
+  
   
   
   printf (" OK\n");
-}*/
+}
 int
 main(void)
 {
   test_add();
-return 0;
-  //test_powe();
+
+  test_mod();
+  return 0;
 }
