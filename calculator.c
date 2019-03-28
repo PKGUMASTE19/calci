@@ -12,7 +12,7 @@ int addition(int a, int b)
 }
  
 
-double powe(int a,int b)
+/*double powe(int a,int b)
 {
  return (pow( a,b));
- }
+ }*/
