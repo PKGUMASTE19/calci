@@ -19,5 +19,5 @@ int mod(int a,int b)
  return (a%b);
  }
 else
-return -1;
+{return -1;}
 }
