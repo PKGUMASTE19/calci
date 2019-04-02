@@ -11,6 +11,8 @@ test_add(void)
   assert (addition(-13,14)==1);
   assert (addition(13,-14)==-1);
   assert (addition(-13,-14)==-27);
+  assert (addition(13,0)==13);
+ 
   
   
   printf (" OK\n");
